@@ -573,7 +573,6 @@ onMounted(fetchArticles)
                 <p v-html="highlightedText(article.summary)"></p>
                 <div class="article-footer">
                   <small v-if="article.sourceName">来源：<span v-html="highlightedText(article.sourceName)"></span></small>
-                  <span class="read-more">查看</span>
                 </div>
               </div>
             </a>

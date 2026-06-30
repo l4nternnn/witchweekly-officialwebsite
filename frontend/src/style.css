@@ -370,29 +370,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 18px;
-}
-
-.read-more {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 72px;
-  min-height: 38px;
-  padding: 0 14px;
-  border: 1px solid var(--ink);
-  color: var(--ink);
-  font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif;
-  font-weight: 700;
-}
-
-.article-card:hover .read-more,
-.article-card:focus-visible .read-more {
-  background: var(--red);
-  border-color: var(--red);
-  color: #fff;
 }
 
 .article-detail-page {
@@ -991,10 +971,6 @@ img {
   .article-cover {
     aspect-ratio: 16 / 9;
     height: auto;
-  }
-
-  .article-footer a {
-    width: 100%;
   }
 
   .mission-section,
