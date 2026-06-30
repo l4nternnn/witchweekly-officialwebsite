@@ -1,0 +1,34 @@
+# Local agent notes
+AGENTS.md
+agent.md
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Django runtime
+db.sqlite3
+logs/
+media/
+staticfiles/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Editors and OS files
+.idea/
+.vscode/
+*.local
+.DS_Store
+Thumbs.db

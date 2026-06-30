@@ -1,0 +1,11 @@
+{% extends "admin/change_list.html" %}
+
+{% block object-tools-items %}
+  {{ block.super }}
+  <li>
+    <a href="{% url 'admin:articles_article_import_md' %}" class="addlink">导入 Markdown</a>
+  </li>
+  <li>
+    <a href="{% url 'admin:articles_article_import_docx' %}" class="addlink">导入 Word</a>
+  </li>
+{% endblock %}
